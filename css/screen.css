@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'hypatia';
+	src: url('HypatiaSansPro-Regular.eot');
+	src: local('?'), url('HypatiaSansPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* { font-family: hypatia, arial; }
+body { margin: 0; background: url(../images/background.jpg); }
+a { color: #fff; }
+
+#site { width: 650px; margin: 25px auto; background: #fff; }
+.site-content { padding: 15px; }
+.home-intro { position: relative; background: url(../images/home.jpg) no-repeat left top; width: 620px; height: 465px; margin-bottom: 40px; } 
+	.home-intro .logo { position: absolute; top: 28px; left: 50%; margin-left: -76px; }
+	.select-language { background: #68391f; position: absolute; bottom: -15px; left: 50%; margin-left: -117px; width: 234px; padding: 9px 0; color: #fff;} 
+	.select-language a { font-size: 14px; }
+	.language-selector { background: url(../images/f.gif) no-repeat right center; padding: 0 13px; color: #fff; font-size: 14px; font-weight: bold; } 
+
+.site-navigation { background: #fff; margin: 10px; padding-top: 10px; }
+	.site-navigation ul { list-style-type: none; margin: 0; padding: 0; width: 100%; display: block; overflow: hidden; }
+	.site-navigation li { list-style-type: none; margin: 0; padding: 0; border-collapse: collapse; float: left; width: 87px; height: 47px; border-right: 3px solid #fff; border-left: 3px solid #fff; background: #969799; display: table; *display: block;}
+	.site-navigation li a { display: table-cell; line-height: 14px; zoom: 1; vertical-align: middle; text-transform: uppercase; text-decoration: none; text-align: center; font-size: 12px; }
+	.site-navigation li.active { background: #492108; }
+	
+.site-footer { background: #492108; }
+	.site-footer  p { padding: 13px 0; margin: 0; text-align: center; color: #fff; font-size: 12.5px; }
+	.site-footer  p  a { color: #fff; }
+	
+/* wellcome */
+.intro-text { font-size: 13px; color: #482107; }
+
+.gearlist p,
+.generic p,
+.generic { font-size: 13px; }
+.generic p a,
+.generic a { color: #592903; }
+
+.internal-title { font-size: 15px; margin: 0; text-transform: uppercase; }
